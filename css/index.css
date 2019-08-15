@@ -169,24 +169,28 @@ img {
   margin: 0 auto;
 }
 .over-container {
-  width: 1000px;
+  width: 100%;
   margin: 0 auto;
 }
-header {
+.over-container header {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 0;
-  border-bottom: 3px dashed #C0C0C0;
-  padding: 1rem 100px;
+  padding: 2rem;
+  width: 800px;
 }
-header nav {
+.over-container header nav {
   padding: 0px;
 }
-header nav a {
+.over-container header nav a {
   font-size: 2rem;
   color: #212529;
   text-decoration: none;
   padding-left: 20px;
+}
+.over-container .over-header-content {
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px dashed #C0C0C0;
 }
 .footer {
   width: 100%;
@@ -198,6 +202,21 @@ header nav a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .content-section-top {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .content-section-top .text-content {
+  margin: 30px 0;
+}
+.home .btn {
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  width: 15rem;
+  text-align: center;
+  border-radius: 1rem;
 }
 .home .content-section {
   margin: 30px 0;
